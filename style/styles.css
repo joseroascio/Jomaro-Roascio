@@ -11,6 +11,9 @@
   background-color: #373737 ;
 }
 
+.botonera:hover {
+  background-color: rgb(199, 178, 54);
+}
 
 .fondo {
   background-color: #c0b283;
