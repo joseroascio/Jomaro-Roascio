@@ -27,9 +27,15 @@ footer {
 .img-big {
   width: 100%;
   height: 400px;
+  transform: scale(0.8);
+}
+
+.img-big:hover {
+  transform: scale(1);
 }
 
 .secondTittle {
   display: flex;
   justify-content: center;
 }
+
