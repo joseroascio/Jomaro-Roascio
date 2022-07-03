@@ -39,3 +39,6 @@ footer {
   justify-content: center;
 }
 
+.image:hover {
+  transform: scale(1.1);
+}
