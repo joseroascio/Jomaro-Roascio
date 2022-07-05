@@ -1,0 +1,18 @@
+.img-fluid {
+    width: 100%;
+    height: 250px;
+  }
+
+  .img-big {
+    width: 100%;
+    height: 400px;
+    transform: scale(0.8);
+  }
+  
+  .img-big:hover {
+    transform: scale(1);
+  }
+
+  .image:hover {
+    transform: scale(1.1);
+  }
