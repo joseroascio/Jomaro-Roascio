@@ -6,6 +6,21 @@
   background-color: #c0b283;
 }
 
+.titulo-primario {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.titulo-secundario {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.titulo-terciario {
+  font-size: 1rem;
+  font-weight: 350;
+}
+
 h2 {
   color: #373737;
 }
@@ -15,12 +30,47 @@ h2 {
   justify-content: center;
 }
 
+footer {
+  background-color: rgba(55, 55, 55, 0.4274509804);
+}
+
+.botonFacebook {
+  color: blue;
+}
+
+.botonTwitter {
+  color: rgb(64, 151, 180);
+}
+
+.botonInstagram {
+  color: rgb(179, 29, 177);
+}
+
+.botonLinkedIn {
+  color: rgb(41, 41, 170);
+}
+
 .navbar {
   background-color: #373737;
 }
 
-.botonera:hover {
-  background-color: rgb(199, 178, 54);
+.navbar-bottom-mujer, .navbar-bottom-contacto, .navbar-bottom-accesorios, .navbar-bottom-hombre {
+  border-radius: 18px;
+}
+.navbar-bottom-mujer:hover, .navbar-bottom-contacto:hover, .navbar-bottom-accesorios:hover, .navbar-bottom-hombre:hover {
+  background-color: red;
+}
+
+.navbar-bottom-hombre:hover {
+  background-color: blueviolet;
+}
+
+.navbar-bottom-accesorios:hover {
+  background-color: blue;
+}
+
+.navbar-bottom-contacto:hover {
+  background-color: green;
 }
 
 .img-fluid {
@@ -40,10 +90,6 @@ h2 {
 
 .image:hover {
   transform: scale(1.1);
-}
-
-footer {
-  background-color: rgba(55, 55, 55, 0.4274509804);
 }
 
 .galeria-contenedor {

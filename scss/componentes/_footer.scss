@@ -1,3 +1,16 @@
 footer {
     background-color: rgba(55, 55, 55, 0.4274509804);
   }
+
+  $redes: (
+    Facebook:blue,
+    Twitter: rgb(64, 151, 180),
+    Instagram: rgb(179, 29, 177),
+    LinkedIn: rgb(41, 41, 170),
+  );
+ 
+  @each $redes,$color in $redes {
+    .boton#{$redes} {
+      color:$color;
+    }
+  }

@@ -6,3 +6,19 @@
     background-color: #c0b283;
   }
 
+@mixin fontsize ($size, $weight) {
+  font-size: $size;
+  font-weight: $weight;
+}
+
+.titulo-primario {
+  @include fontsize(2rem,700 );
+}
+
+.titulo-secundario {
+  @include fontsize(1.5rem,500 );
+}
+
+.titulo-terciario {
+  @include fontsize(1rem,350 );
+}

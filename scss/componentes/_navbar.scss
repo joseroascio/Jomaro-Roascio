@@ -2,6 +2,39 @@
     background-color: #373737 ;
   }
   
-  .botonera:hover {
-    background-color: rgb(199, 178, 54);
+  
+
+  .navbar-bottom-mujer {
+    
+    border-radius: 18px;
+    
+
+    &:hover {
+      background-color: red;
+    }
+  }
+
+  .navbar-bottom-hombre {
+    @extend .navbar-bottom-mujer;
+
+    &:hover {
+    background-color: blueviolet;
+    
+  }
+  }
+
+  .navbar-bottom-accesorios {
+    @extend .navbar-bottom-mujer;
+
+    &:hover {
+      background-color: blue;
+    }
+  }
+
+  .navbar-bottom-contacto {
+    @extend .navbar-bottom-mujer;
+    
+    &:hover {
+      background-color: green;
+    }
   }
